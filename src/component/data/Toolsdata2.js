@@ -1,4 +1,5 @@
 import { faFigma, faGoogle, faNpm } from "@fortawesome/free-brands-svg-icons";
+import { faS } from "@fortawesome/free-solid-svg-icons";
 
 const tooldata2 = [
   {
@@ -11,7 +12,7 @@ const tooldata2 = [
   },
   {
     icon: faGoogle,
-    label: "Google Colab",
+    label: "Sublime",
   },
 ];
 

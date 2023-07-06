@@ -2,7 +2,7 @@ import React from "react";
 import Typed from "typed.js";
 import { Box, Button, Container, Typography } from "@mui/material";
 import { useEffect, useRef } from "react";
-import profilePic from "../images/IMG_3679.JPG";
+import profilePic from "../images/rajni.jpeg";
 import SendIcon from "@mui/icons-material/Send";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -15,10 +15,10 @@ const Home = () => {
   useEffect(() => {
     const typed = new Typed(descRef.current, {
       strings: [
-        "A CSE undergrad",
+        // "A CSE undergrad",
         "A Frontend Web Developer",
         "A Competitive Programmer",
-        "A Backend Web Dev enthusiast",
+        // "A Backend Web Dev enthusiast",
       ],
       startDelay: 300,
       typeSpeed: 100,
@@ -35,7 +35,7 @@ const Home = () => {
       <Box
         sx={{
           margin: [, , "12.5% 10%"],
-          color: "#edede8",
+          color: "black",
           display: "flex",
           justifyContent: "space-between",
           flexDirection: { xs: "column-reverse", md: "row" },
@@ -43,12 +43,12 @@ const Home = () => {
       >
         <Box sx={{ textAlign: { xs: "center", md: "left" } }}>
           <h1>Hello, I'm</h1>
-          <h1>Nitish</h1>
+          <h1>Rajni Singh</h1>
           <h3>
             I'm{" "}
             <span
               ref={descRef}
-              style={{ color: "hsla(41, 100%, 50%, 0.89)" }}
+              style={{ color: "black", fontWeight: "bold" }}
             ></span>
           </h3>
           <Typography variant="h6">

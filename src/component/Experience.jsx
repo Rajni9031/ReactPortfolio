@@ -28,17 +28,16 @@ export default function Experience() {
           </TimelineSeparator>
           <TimelineContent>
             <Box sx={{ color: "#edede8", textAlign:{md: "justify"} }}>
-              <Typography variant="h6">Full Stack Developer Intern</Typography>
+              <Typography variant="h6">Web Developer Intern</Typography>
               <Typography>
-                Butternut AI, San Francisco (remote), 
-                <CalendarMonthIcon />  May 2023 - Present
+                CodSoft
+                <CalendarMonthIcon />  July 2023 - Present
               </Typography>
               <Typography variant="caption">
-                As a Full Stack Developer Intern at Butternut.ai, I have
-                contributed to the development and deployment of multiple live
-                features into production for their AI-powered website builder.
-                Leveraging technologies like Next.js, Flask, and AWS, I played a
-                vital role in enhancing the platform's functionalities
+                A web development internship where I am working on a project
+                titled "CodSoft". This project is aimed to build a platform for
+                coders to share their code and learn from others. I am working
+                on the frontend of the project using ReactJS.
               </Typography>
             </Box>
           </TimelineContent>
@@ -52,21 +51,15 @@ export default function Experience() {
           </TimelineSeparator>
           <TimelineContent>
             <Box sx={{ color: "#edede8", textAlign: "right" }}>
-              <Typography variant="h6">Front End Developer Intern</Typography>
+              <Typography variant="h6">ICMMMI - 2024</Typography>
               <Typography>
-                HighonSwift, Banglore (remote), <CalendarMonthIcon /> Mar 2023 -
-                May 2023
+                National Institute of Technology,Jamshedpur <CalendarMonthIcon /> June 2023 - Present
               </Typography>
               <Box sx={{textAlign:{md: "justify"}}}>
               <Typography variant="caption">
-                Successfully collaborated on two client projects during
-                internship. Developed user interfaces for a Hospital Management
-                System using React, enhancing UX and streamlining workflows.
-                Created an Admin Panel for a university with interactive
-                dashboards, dynamic forms, and tables for efficient data
-                management. Implemented responsive design for optimal user
-                experience across devices and integrated frontend components
-                with backend systems using API endpoints.
+                  ICMMMI is an international conference organized by National Institute of Technology 
+                  Jamshedpur. I am working as a web developer in the team. I am working on the frontend of the project using ReactJS.
+
               </Typography>
               </Box>
             </Box>
@@ -79,7 +72,7 @@ export default function Experience() {
               sx={{ background: "hsla(41, 100%, 50%, 0.89)" }}
             />
           </TimelineSeparator>
-          <TimelineContent>
+          {/* <TimelineContent>
             <Box sx={{ color: "#edede8", textAlign:{md: "justify"} }}>
               <Typography variant="h6">Software Developer</Typography>
               <Typography>
@@ -95,7 +88,7 @@ export default function Experience() {
                 architecture.
               </Typography>
             </Box>
-          </TimelineContent>
+          </TimelineContent> */}
         </TimelineItem>
       </Timeline>
     </>

@@ -103,7 +103,7 @@ const Navbar = () => {
               color: "hsla(41, 100%, 50%, 0.89)",
             }}
           >
-            Nitish J S
+            Rajni Singh
           </Typography>
           <Box sx={{ flexGrow: 0, display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (

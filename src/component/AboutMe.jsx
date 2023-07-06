@@ -1,6 +1,6 @@
 import { Box, Container, Typography, Button } from "@mui/material";
 import React from "react";
-import Img from "../images/about.jpg";
+import Img from "../images/rajni.jpeg";
 import FileCopyIcon from "@mui/icons-material/FileCopy";
 import Resume from "./data/Nitish Resume.pdf";
 const Aboutme = () => {
@@ -30,8 +30,8 @@ const Aboutme = () => {
           }}
         >
           <Typography variant="body1" sx={{ fontSize: "20px" }}>
-            I am Nitish J S, a pre-final year student at VIT, Vellore-majoring
-            in Computer Science and Engineering. I am a vivid learner with
+            I am Rajni Singh, a pre-final year student at National Institute of Technology, Jamshedpur
+            in Production and Industrial Engineering. I am a vivid learner with
             unquenchable enthusiasm to learn and explore. I'm currently
             exploring full-stack Web development using the MERN stack.
           </Typography>

@@ -19,10 +19,6 @@ const data2 = [
     icon: faJs,
     label: "Javascript",
   },
-  {
-    icon: faDatabase,
-    label: "SQL",
-  },
   
   
  

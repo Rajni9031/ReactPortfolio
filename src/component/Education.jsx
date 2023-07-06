@@ -11,52 +11,67 @@ import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 export default function Education() {
   return (
     <>
-      <Typography variant="h3" sx={{ color: "#edede8", textAlign: "center",pt:"5%" }} id="Education">
+      <Typography
+        variant="h3"
+        sx={{ color: "#edede8", textAlign: "center", pt: "5%" }}
+        id="Education"
+      >
         Education
       </Typography>
-      <Timeline position="alternate" >
+      <Timeline position="alternate">
         <TimelineItem>
-          <TimelineSeparator >
-            <TimelineDot sx={{background:"hsla(41, 100%, 50%, 0.89)"}}/>
-            <TimelineConnector sx={{background:"hsla(41, 100%, 50%, 0.89)"}} />
+          <TimelineSeparator>
+            <TimelineDot sx={{ background: "hsla(41, 100%, 50%, 0.89)" }} />
+            <TimelineConnector
+              sx={{ background: "hsla(41, 100%, 50%, 0.89)" }}
+            />
           </TimelineSeparator>
           <TimelineContent>
             <Box sx={{ color: "#edede8", ml: "10%" }}>
-              <Typography variant="h6">B.Tech CSE</Typography>
-              <Typography>VIT University,</Typography>
-              <Typography>Vellore.</Typography>
-              <Typography>CGPA: 9.22</Typography>
-              <Typography><CalendarMonthIcon /> 2020-2024</Typography>
+              <Typography variant="h6">Bachelor of Technology</Typography>
+              <Typography>National Institute of Technology</Typography>
+              <Typography>Jamshedpur</Typography>
+              <Typography>CGPA: 7.80</Typography>
+              <Typography>
+                <CalendarMonthIcon /> 2021-current
+              </Typography>
             </Box>
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
           <TimelineSeparator>
-            <TimelineDot sx={{background:"hsla(41, 100%, 50%, 0.89)"}} />
-            <TimelineConnector sx={{background:"hsla(41, 100%, 50%, 0.89)"}}   />
+            <TimelineDot sx={{ background: "hsla(41, 100%, 50%, 0.89)" }} />
+            <TimelineConnector
+              sx={{ background: "hsla(41, 100%, 50%, 0.89)" }}
+            />
           </TimelineSeparator>
           <TimelineContent>
             <Box sx={{ color: "#edede8", mr: "10%" }}>
               <Typography variant="h6">12th Grade</Typography>
-              <Typography>AVM Rajeshwari,</Typography>
-              <Typography>Higher Secondary school,Chennai.</Typography>
-              <Typography>Percentage: 91.67%</Typography>
-              <Typography> <CalendarMonthIcon /> 2019-2020</Typography>
+              <Typography>Ramakrishna Mission English School</Typography>
+              <Typography>ISC Board, Delhi</Typography>
+              <Typography>Percentage: 89%</Typography>
+              <Typography>
+                {" "}
+                <CalendarMonthIcon /> 2018-2020
+              </Typography>
             </Box>
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
           <TimelineSeparator>
-            <TimelineDot  sx={{background:"hsla(41, 100%, 50%, 0.89)"}} />
+            <TimelineDot sx={{ background: "hsla(41, 100%, 50%, 0.89)" }} />
             {/* <TimelineConnector /> */}
           </TimelineSeparator>
           <TimelineContent>
             <Box sx={{ color: "#edede8", ml: "10%" }}>
               <Typography variant="h6">10th Grade</Typography>
-              <Typography>AVM Rajeshwari,</Typography>
-              <Typography>Higher Secondary school,Chennai.</Typography>
-              <Typography>Percentage: 93.4%</Typography>
-              <Typography><CalendarMonthIcon /> 2017-2018</Typography>
+              <Typography>Ramakrishna Mission English School</Typography>
+              <Typography>ICSC Board, Delhi</Typography>
+              <Typography>Percentage: 95%</Typography>
+              <Typography>
+                <CalendarMonthIcon /> till - 2018
+              </Typography>
             </Box>
           </TimelineContent>
         </TimelineItem>

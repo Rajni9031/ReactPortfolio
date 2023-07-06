@@ -27,14 +27,6 @@ const data = [
     icon: faJava,
     label: "Java",
   },
-  {
-    icon: faPython,
-    label: "Python",
-  },
-  {
-    icon: faRProject,
-    label: "R",
-  },
  
 ];
 export default data;

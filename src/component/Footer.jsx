@@ -14,9 +14,9 @@ const Footer = () => {
       }}
     >
       <Box sx={{ p: "5% 20%", color: "#edede8" }}>
-        <Typography variant="h5">Nitish J S</Typography>
-        <Typography variant="subtitle1">Student at VIT University</Typography>
-        <Typography variant="subtitle1">Vellore,TamilNadu</Typography>
+        <Typography variant="h5">Rajni Singh</Typography>
+        <Typography variant="subtitle1">Student at NIT Jamshedpur</Typography>
+        <Typography variant="subtitle1">Jamshedpur,Jharkhand</Typography>
         {/* <Typography variant='h3'>J S</Typography> */}
       </Box>
       <Box
@@ -31,19 +31,16 @@ const Footer = () => {
           color: "#edede8",
         }}
       >
-        <Button color="inherit" href="https://www.linkedin.com/in/nitish-j-s">
+        <Button color="inherit" href="https://www.linkedin.com/in/rajni9031/">
           <LinkedInIcon />
         </Button>
-        <Button color="inherit" href="mailto:jsnitish46@gmail.com">
+        <Button color="inherit" href="mailto:rajnisingh9031@gmail.com">
           <EmailIcon />
         </Button>
-        <Button href="https://github.com/Nitish-JS" sx={{ color: "inherit" }}>
+        <Button href="https://github.com/Rajni9031" sx={{ color: "inherit" }}>
           <GitHubIcon />
         </Button>
-        <Button
-          color="inherit"
-          href="https://www.instagram.com/_n.i.t.i.s.hhhhh/"
-        >
+        <Button color="inherit" href="https://www.instagram.com/_rajni_9031">
           <InstagramIcon />
         </Button>
       </Box>
